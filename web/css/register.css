@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "SFProText";
+    src: url("/fonts/SFProText-Regular.ttf");
+}
+@font-face {
+    font-family: "Lato";
+    src: url("/fonts/Lato-Light.ttf");
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+.registration-wrapper{
+    width: 680px;
+    height: 492px;
+    border-radius: 4.8px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.5);
+    background-color: #ffffff;
+    margin: 51px auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create-an-account{
+    width: 248px;
+    margin-top: 64px;
+    height: 19.8px;
+    font-family: SFProText;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #392c70;
+}
+.register-field{
+    padding-left:15px;
+    margin-top: 26px;
+    width: 350px;
+    height: 40px;
+    border-radius: 4.8px;
+    background-color: #ffffff;
+}
+
+.username::placeholder{
+    width: 149.9px;
+    height: 19.8px;
+    font-family: SFProText;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.41;
+    letter-spacing: normal;
+    color: #6e6e6e;
+}
+
+.form-wrapper{
+    margin-top: 39px;
+    margin-bottom: 45px;
+}
+
+.register-button{
+    margin:auto;
+    width: 203px;
+    height: 50px;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    border: 0px;
+    border-radius: 4.8px;
+    color: #ffffff;
+    background-color: #392c70;
+    display: flex;
+    justify-content: center;
+}
